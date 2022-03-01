@@ -37,7 +37,7 @@ public class PromotionEngineMain {
         
         System.out.println("Test Scenario A Promotion Applied : " + checkoutPriceA);
         
-        //Scenario A execution
+        //Scenario B execution
         Map<Product, Integer> productMapB = new HashMap<>();
 		productMapB.put(productA, 5);
 		productMapB.put(productB, 5);
