@@ -4,6 +4,11 @@
   <artifactId>PromotionEngine</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>PromotionEngine</name>
+
+	<properties>
+        <jackson.version>2.11.1</jackson.version>
+    </properties>
+
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -17,4 +22,13 @@
       </plugin>
     </plugins>
   </build>
+
+	<dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+			<version>${jackson.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>

@@ -1,0 +1,22 @@
+skuids:
+  - name : A
+    price : 50.0
+  - name : B
+    price : 30.0
+  - name : C
+    price : 20.0
+  - name : D
+    price : 15.0
+promotions :
+  - name : singleProductGroupAPromotion
+    products : ["A"]
+    quantity : 3
+    promoted_price : 130.0
+  - name : singleProductGroupBPromotion
+    products : ["B"]
+    quantity : 2
+    promoted_price : 45.0
+  - name : groupPromotionCD
+    products : ["C", "D"]
+    quantity : 2
+    promoted_price : 30.0
